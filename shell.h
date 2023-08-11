@@ -13,6 +13,7 @@
 #define BUFFER_SIZE 1024
 #define PROMPT "(OMONS_Shell) $ "
 
+extern char **environ;
 
 void execmd(char **argv);
 
